@@ -1,4 +1,4 @@
-# PDEandNN
+# Solving and Discovering Partial Differential Equations via Deep Learning Models
 This project uses deep neural networks to solve and identify the Swift-Hohenberg equation; a fourth order stiff partial differential equation. This repository contains the data, code and technical report for this project.  This work is based off of the following papers:
 
 - Maziar Raissi. ["Deep hidden physics models: Deep learning of nonlinear partial differential equations."](https://www.jmlr.org/papers/volume19/18-046/18-046.pdf) Journal of Machine Learning Research 19 (2018): 1–24.
