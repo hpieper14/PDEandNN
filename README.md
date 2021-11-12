@@ -14,7 +14,6 @@ This project uses deep neural networks to solve and identify the Swift-Hohenberg
 [Project Description](#project-description)  
 [Main Takeaways](#main-takeaways)  
 [Generated Data](#generated-data)
-[Results](#results)
 
 ## Project Description 
 We review two deep learning models that concern the dynamics underlying sparse and/or noisy spatiotemporal data appearing in the above papers. The first model aims to infer the solution to a known partial differential equation from space and time data. The second model aims to identify the PDE itself. We apply these models to the 1-dimensional Swift-Hohenberg equation, which has not appeared in associated literature. See the [technical report](technical_report.pdf) for the relevant background, discussion and results. 
