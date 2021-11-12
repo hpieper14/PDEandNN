@@ -23,9 +23,11 @@ We review two deep learning models that concern the dynamics underlying sparse a
 The first model was able to accurately solve the Swift-Hohenberg equation with unperturbed data [See SolvingSH1D-Class.ipynb](SolvingSH1D-Class.ipynb). Additionally the second model that seeks to learn the PDE was able to identify the parameters with reasonable accuracy under the presence of noise. However, the second model was not able to adequately learn the entire PDE from spatio-temporal data [See (IdentifyingSH1D-Class.ipynb)](IdentifyingSH1D-Class.ipynb).
 
 For example, here are the true dynamics of the solution: 
+
 ![](HD_rolls_1_true.png)
 
 Here are the dynamics predicted by the model: 
+
 ![](HD_rolls_1_pred_int.png)
 
 The class file for the model that seeks to solve the PDE can be found [here](PhysicsInformedNN1.py). The class file for the model that seeks to learn the PDE itself can be found [here](DeepHiddenPhysicsModels1.py).
